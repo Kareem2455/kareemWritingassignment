@@ -1,0 +1,15 @@
+def add2Plus(KareemAnswer):
+    return 2 + int (KareemAnswer)
+
+print('Hello Kareem, lets do some addition today.')
+print('What is your favorite number?')
+
+KareemAnswer = input()
+
+print(add2Plus(KareemAnswer))
+
+def multiply10by(kareemMultiply):
+    return 10 * kareemMultiply
+
+print('Okay now lets do some multiplication.')
+
